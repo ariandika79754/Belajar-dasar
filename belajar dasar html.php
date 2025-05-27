@@ -155,3 +155,123 @@ html
   <a href="https://github.com/ariandika79754">Github Saya</a>
 </body>
 </html>
+
+11. Penggunaan CSS di HTML
+HTML bisa dikombinasikan dengan CSS untuk memperindah tampilan halaman web.
+
+🔹 3 Cara Menyisipkan CSS:
+a. Inline CSS
+
+html
+Salin
+Edit
+<p style="color: blue;">Teks ini berwarna biru</p>
+b. Internal CSS
+
+html
+Salin
+Edit
+<head>
+  <style>
+    body {
+      background-color: #f0f0f0;
+    }
+    h1 {
+      color: green;
+    }
+  </style>
+</head>
+c. Eksternal CSS
+
+html
+Salin
+Edit
+<!-- File HTML -->
+<link rel="stylesheet" href="style.css">
+css
+Salin
+Edit
+/* File style.css */
+p {
+  font-size: 18px;
+}
+12. Media Responsif
+Gunakan properti width="100%" atau media queries CSS agar gambar dan layout menyesuaikan layar.
+
+html
+Salin
+Edit
+<img src="gambar.jpg" alt="Contoh" style="width: 100%; max-width: 400px;">
+13. Membuat Navigasi Sederhana
+html
+Salin
+Edit
+<nav>
+  <a href="#beranda">Beranda</a> |
+  <a href="#tentang">Tentang</a> |
+  <a href="#kontak">Kontak</a>
+</nav>
+14. Menyisipkan Video dan Audio
+html
+Salin
+Edit
+<video width="320" height="240" controls>
+  <source src="video.mp4" type="video/mp4">
+  Browser Anda tidak mendukung video tag.
+</video>
+
+<audio controls>
+  <source src="audio.mp3" type="audio/mpeg">
+  Browser Anda tidak mendukung audio tag.
+</audio>
+15. Membuat Layout Dasar dengan <div>
+html
+Salin
+Edit
+<div style="width: 100%; background-color: lightblue;">
+  <h2>Header</h2>
+</div>
+
+<div style="display: flex;">
+  <div style="width: 70%; background-color: #eee;">Konten Utama</div>
+  <div style="width: 30%; background-color: #ccc;">Sidebar</div>
+</div>
+
+<div style="background-color: lightgray;">
+  <p>Footer</p>
+</div>
+16. Favicon (Ikon di Tab Browser)
+Tambahkan di bagian <head>:
+
+html
+Salin
+Edit
+<link rel="icon" type="image/png" href="favicon.png">
+17. HTML Entities (Karakter Khusus)
+Karakter	Entity	Hasil
+&lt;	<	<
+&gt;	>	>
+&amp;	&	&
+&quot;	"	"
+&copy;		©
+
+18. Metatag Penting di <head>
+html
+Salin
+Edit
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Website portofolio Ari Andika">
+19. Validasi HTML
+Gunakan W3C HTML Validator untuk mengecek apakah struktur HTML kamu valid.
+
+20. Proyek Latihan untuk Pemula
+✅ Buat halaman profil diri.
+
+✅ Buat halaman daftar produk sederhana.
+
+✅ Buat form kontak lengkap (nama, email, pesan).
+
+✅ Buat layout halaman web menggunakan <div>.
+
+✅ Buat website sederhana dengan 3 halaman: Beranda, Tentang, dan Kontak.
