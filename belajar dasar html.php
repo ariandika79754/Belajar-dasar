@@ -1,12 +1,9 @@
-Berikut ini adalah materi belajar dasar pemrograman dengan HTML yang cocok untuk pemula yang ingin memahami struktur, elemen dasar, dan praktik penggunaan HTML.
-
-
-
 📚 Materi Dasar Pemrograman dengan HTML
 
  1. Apa itu HTML?
 
-HTML (HyperText Markup Language) adalah bahasa markah standar untuk membuat halaman web. HTML digunakan untuk menyusun struktur konten pada web seperti teks, gambar, tautan, tabel, dan lain-lain.
+HTML (HyperText Markup Language) adalah bahasa markah standar untuk membuat halaman web.
+HTML digunakan untuk menyusun struktur konten pada web seperti teks, gambar, tautan, tabel, dan lain-lain.
 
 
 
@@ -20,7 +17,7 @@ html
 </head>
 <body>
   <h1>Halo, Dunia!</h1>
-  <p>Ini adalah paragraf pertama saya.</p>
+  <p>Ini adalah paragraf epertama saya.</p>
 </body>
 </html>
 
@@ -155,11 +152,6 @@ html
   <h1>Selamat Datang di Portofolio Saya</h1>
   <p>Nama: Ari Andika</p>
   <p>Email: andikaari406@gmail.com</p>
-  <a href="https://www.linkedin.com/in/ari-andika-b55b6b28b/">LinkedIn Saya</a>
+  <a href="https://github.com/ariandika79754">Github Saya</a>
 </body>
 </html>
-
-
-
-
-Kalau kamu ingin saya bantu buat modul PDF atau materi ini dalam bentuk video atau slide presentasi, tinggal bilang saja!
