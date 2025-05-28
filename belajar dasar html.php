@@ -141,20 +141,6 @@ html
 
  📦 Bonus: Template HTML Sederhana
 
-html
-<!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <title>Portfolio Sederhana</title>
-</head>
-<body>
-  <h1>Selamat Datang di Portofolio Saya</h1>
-  <p>Nama: Ari Andika</p>
-  <p>Email: andikaari406@gmail.com</p>
-  <a href="https://github.com/ariandika79754">Github Saya</a>
-</body>
-</html>
 
 11. Penggunaan CSS di HTML
 HTML bisa dikombinasikan dengan CSS untuk memperindah tampilan halaman web.
